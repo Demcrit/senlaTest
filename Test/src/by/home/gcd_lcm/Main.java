@@ -18,6 +18,7 @@ public class Main {
 	public static void main(String[] args) {
 		int a, b;
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Нахождение НОК и НОД чисел");
 		System.out.println("Введите два числа");
 		a = sc.nextInt();
 		b = sc.nextInt();

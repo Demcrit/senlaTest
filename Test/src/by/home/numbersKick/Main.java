@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("Введите текст");
         Scanner sc = new Scanner(System.in);
         s = sc.nextLine();
-        System.out.println("Новая строка "+delNumbers(s));
+        System.out.println("Новая строка: "+delNumbers(s));
 	}
 
 }

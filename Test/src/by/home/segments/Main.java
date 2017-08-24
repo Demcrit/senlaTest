@@ -25,7 +25,7 @@ public class Main {
 	 ay1 = sc.nextInt();
 	 ax2 = sc.nextInt();
 	 ay2 = sc.nextInt();
-	  System.out.println("¬ведите координаты первого отрезка: ");
+	  System.out.println("¬ведите координаты второго отрезка: ");
 	 bx1 = sc.nextInt();
 	 by1 = sc.nextInt();
 	 bx2 = sc.nextInt();
