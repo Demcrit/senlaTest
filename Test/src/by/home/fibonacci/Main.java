@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
  public static void main(String[] args) {
  int n = 0;
- System.out.println("Числа Фибоначчи в диапазоне от 1 до N");
- System.out.print("Введите N:");
+ System.out.println("Р§РёСЃР»Р° Р¤РёР±РѕРЅР°С‡С‡Рё РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 1 РґРѕ N");
+ System.out.print("Р’РІРµРґРёС‚Рµ N:");
  Scanner sc = new Scanner(System.in);
  n = sc.nextInt();
  int a = 1, b = 1;
