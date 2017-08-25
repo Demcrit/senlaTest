@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		int num , arg;
-		System.out.println("Простые числа в диапазоне от 1 до N");
-		System.out.print("Введите N:");
+		System.out.println("РџСЂРѕСЃС‚С‹Рµ С‡РёСЃР»Р° РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ 1 РґРѕ N");
+		System.out.print("Р’РІРµРґРёС‚Рµ N:");
 		Scanner sc = new Scanner(System.in);
 		num = sc.nextInt();
 		System.out.print(1 + " ");
