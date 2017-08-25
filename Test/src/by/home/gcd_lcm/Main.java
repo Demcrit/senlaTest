@@ -18,12 +18,12 @@ public class Main {
 	public static void main(String[] args) {
 		int a, b;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Нахождение НОК и НОД чисел");
-		System.out.println("Введите два числа");
+		System.out.println("РќР°С…РѕР¶РґРµРЅРёРµ РќРћРљ Рё РќРћР” С‡РёСЃРµР»");
+		System.out.println("Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°");
 		a = sc.nextInt();
 		b = sc.nextInt();
-		System.out.println("НОД " + gcd(a,b));
-		System.out.println("НОK " + lcm(a,b));
+		System.out.println("РќРћР” " + gcd(a,b));
+		System.out.println("РќРћРљ " + lcm(a,b));
 		
 		
 	}
