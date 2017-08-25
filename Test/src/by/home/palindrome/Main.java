@@ -9,11 +9,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		String s = null;
-		System.out.println("Введите слово для проверки");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ РґР»СЏ РїСЂРѕРІРµСЂРєРё");
 		Scanner sc = new Scanner(System.in);
 		s = sc.nextLine();
-        if (palindrome(s)==true) System.out.println("Введенное слово является палиндромом");
-        else System.out.println("Введенное слово не является палиндромом");
+        if (palindrome(s)==true) System.out.println("Р’РІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј");
+        else System.out.println("Р’РІРµРґРµРЅРЅРѕРµ СЃР»РѕРІРѕ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј");
 	}
 
 }
