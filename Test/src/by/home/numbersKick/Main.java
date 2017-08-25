@@ -13,10 +13,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		String s = null;
-		System.out.println("Введите текст");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚");
         Scanner sc = new Scanner(System.in);
         s = sc.nextLine();
-        System.out.println("Новая строка: "+delNumbers(s));
+        System.out.println("РќРѕРІР°СЏ СЃС‚СЂРѕРєР°: "+delNumbers(s));
 	}
 
 }
