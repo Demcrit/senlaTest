@@ -11,21 +11,21 @@ public class Main {
 		   c4=(ax2-ax1)*(by2-ay1)-(ay2-ay1)*(bx2-ax1);
 		
 		   if  ((c1*c2<0) & (c3*c4<0)) {
-			   System.out.println("Äà,ïåðåñåêàþòñÿ");
+			   System.out.println("Ð”Ð°, Ð¿ÐµÑ€ÐµÑÐµÐºÐ°ÑŽÑ‚ÑÑ");
 		   }
 		      else {   
-		     System.out.println("Íåò, íå ïåðåñåêàþòñÿ");}
+		     System.out.println("ÐÐµÑ‚, Ð½Ðµ Ð¿ÐµÑ€ÐµÑÐµÐºÐ°ÑŽÑ‚ÑÑ");}
 	}
 
 	public static void main(String[] args) {
  	 int ax1 = 0,ay1 = 0,ax2 = 0,ay2 = 0,bx1 = 0,by1 = 0,bx2 = 0,by2 = 0;
 	 Scanner sc = new Scanner(System.in);
-	  System.out.println("Ââåäèòå êîîðäèíàòû ïåðâîãî îòðåçêà: ");
+	  System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ°: ");
 	 ax1 = sc.nextInt();
 	 ay1 = sc.nextInt();
 	 ax2 = sc.nextInt();
 	 ay2 = sc.nextInt();
-	  System.out.println("Ââåäèòå êîîðäèíàòû âòîðîãî îòðåçêà: ");
+	  System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ð²Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ°: ");
 	 bx1 = sc.nextInt();
 	 by1 = sc.nextInt();
 	 bx2 = sc.nextInt();
